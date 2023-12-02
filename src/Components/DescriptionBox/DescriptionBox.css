@@ -1,0 +1,36 @@
+.description-box{
+    margin: 80px 170px;
+}
+.description-box-navigator{
+    display: flex;
+}
+.description-box-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.description-box-nav-box.fade{
+    background: #fbfbfb;
+    color: #555;
+}
+.description-box-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+}
+
+/* responsiveness */
+/* for mobile screen */
+@media screen and (max-width: 768px){
+    .description-box{
+        margin: 50px 20px;
+    }
+  }

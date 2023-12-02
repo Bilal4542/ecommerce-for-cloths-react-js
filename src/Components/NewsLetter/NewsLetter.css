@@ -1,0 +1,114 @@
+.news-letter{
+    width: 65%;
+    height: 60vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60% );
+    gap: 30px;
+}
+.news-letter h1{
+    color: #454545;
+    font-size: 45px;
+    font-weight: 600;
+}
+.news-letter p{
+    color: #454545;
+    font-size: 18px;
+}
+.news-letter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3
+}
+.news-letter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: poppins;
+    font-size: 18px;
+}
+.news-letter button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 18px;
+}
+
+/* Responsive Ness */
+/* for mobile screen */
+@media screen and (max-width: 425px)  {
+    .news-letter{
+        width: 100%;
+        padding: 10px 80px;
+        margin-bottom: 100px;
+        gap: 10px;
+    }
+    .news-letter h1{
+        font-size: 33px;
+    }
+    .news-letter p{
+        font-size: 16px;
+    }
+    .news-letter div{
+        width: 350px;
+        height: 50px;
+        border-radius: 40px;
+    }
+    .news-letter input{
+        width: 200px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .news-letter button{
+        width: 150px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+  }
+/* for tablet screen */
+@media screen and (max-width: 1024px)  {
+    .news-letter{
+        width: 100%;
+        padding: 10px 80px;
+        margin-bottom: 100px;
+        gap: 10px;
+    }
+    .news-letter h1{
+        font-size: 33px;
+    }
+    .news-letter p{
+        font-size: 16px;
+    }
+    .news-letter div{
+        width: 350px;
+        height: 50px;
+        border-radius: 40px;
+    }
+    .news-letter input{
+        width: 200px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .news-letter button{
+        width: 150px;
+        height: 50px;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+  }

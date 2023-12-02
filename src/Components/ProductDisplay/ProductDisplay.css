@@ -1,0 +1,116 @@
+.product-display{
+    display: flex;
+    margin: 0 170px;
+}
+.product-display-left{
+    display: flex;
+    gap: 17px;
+}
+.product-display-image-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.product-display-image-list img{
+    height: 130px;
+}
+.product-display-main-image{
+    width: 500px;
+    height: 570px;
+}
+.product-display-right{
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px;
+}
+.product-display-right h1{
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 700;
+}
+.product-display-right-stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.product-display-right-stars p{
+    margin-top: 10px;
+}
+.product-display-right-prices{
+    display: flex;
+    margin: 15px 0;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.product-display-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.product-display-right-price-new{
+    color: #ff4141;
+}
+.product-display-right-size h1{
+    color: #656565;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-display-right-sizes{
+    display: flex;
+    margin: 15px 0;
+    gap: 20px;
+}
+.product-display-right-sizes div{
+    padding: 12px 16px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.product-display-right button{
+    padding: 10px 16px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.product-display-right-category{
+    margin-top: 10px;
+}
+.product-display-right-category span{
+    font-weight: 600;
+}
+
+/* responsiveness */
+/* for both mobile & tablet screens */
+@media screen and (max-width: 768px) {
+    .product-display{
+        margin: 0px;
+        display: block;
+    }
+    .product-display-left{
+        gap: 10px;
+    }
+    .product-display-image-list{
+        gap: 10px;
+    }
+    .product-display-image-list img{
+        height: 80px;
+    }
+    .product-display-main-image{
+        width: 280px;
+        height: 350px;
+    }
+    .product-display-right{
+        margin: 30px 20px;
+    }
+    
+  }

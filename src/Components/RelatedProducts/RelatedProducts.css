@@ -1,0 +1,44 @@
+.related-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height: 90vh; */
+}
+.related-products h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+.related-products hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.related-products-items{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* responsiveness */
+/* for mobile screen */
+@media screen and (max-width: 425px){
+   
+    .related-products-items{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* for tablet screen */
+@media screen and (min-width: 426px) and (max-width: 1024px){
+    .related-products{
+    }
+    .related-products-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }

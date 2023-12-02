@@ -1,0 +1,28 @@
+.bread-crums{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 35px 170px;
+    color: #5e5e5e;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* responsiveness */
+/* for mobile screens */
+@media screen and (max-width: 425px) {
+    .bread-crums{
+        gap: 8px;
+        margin: 35px 10px;
+        font-size: 14px;
+    }
+  }
+  /* for tablets */
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .bread-crums{
+        gap: 8px;
+        margin: 35px 10px;
+        font-size: 14px;
+    }
+  }
